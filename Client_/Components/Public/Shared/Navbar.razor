@@ -4,8 +4,11 @@
     </a>
 
     <button class="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-            <ul class="navbar-nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="@HomePageUri" class="nav-link mx-5 md-and-smaller-my-3 @(IsPageActive(HomePageUri) ? "active" : string.Empty)">
                         Home
@@ -17,11 +20,6 @@
                     </a>
                 </li>
             </ul>
-        </span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
     </div>
 
 </nav>
